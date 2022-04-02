@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli method calıştırma">
+    <test name="satış fonksiyonları">
+            <classes>
+                <class name="tests.day13_POM.C01_Pages">
+                    <methods>
+                    <include name="testPOM">
+                        <!--ÇALIŞTIRACAĞIMIZ METHOD SAYISI AZ OLDUĞUNDA İNCLUDE İLE
+                        İSTEDİĞİZ KADAR SEÇEBİLİRİZ.-->
+                        <!--ÇALIŞTIRMAYACAĞIMIZ METHOD SAYISI AZ OLDUĞUNDA İXCLUDE İLE
+                        İSTEDİĞİZ KADAR SEÇEBİLİRİZ.-->
+                    </include>
+                    </methods>
+                </class>
+            </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="class calıstırma">
+    <test name="farklı classları calıstırma">
+        <classes>
+            <class name="tests.smokeTest.positiveVeLoginTest"></class>
+            <class name="tests.day13_POM.C01_Pages"></class>
+            <class name="tests.day14.C01_ConcortHotelPositive"></class>
+            <!--eğer test den sonra page eklemezsek farklı page lerden class lar
+                secebiliriz.   -->
+        </classes>
+
+    </test>
+</suite>

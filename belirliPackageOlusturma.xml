@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="package calıstırma" verbose="1">
+  <test name="packege çalıstırma">
+      <packages>
+          <package name="tests.smokeTest">
+
+          </package>
+      </packages>
+  </test>
+</suite>
